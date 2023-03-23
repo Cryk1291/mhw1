@@ -39,6 +39,9 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none; /* Levo sottolineatura */
 }
+.link:hover{
+    color: lightgray;
+}
 
 #Overlay{
    background-color: rgba(0,0,0,0.3);
