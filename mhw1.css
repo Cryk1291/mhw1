@@ -29,7 +29,7 @@ header{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 20px;      /*Spaziatura tra le parole */
+    gap: 15px;      /*Spaziatura tra le parole */
     padding: 10px;  /*Spaziatura con l'esterno */
     font-size: 16px; /*Dimensione Font*/
 }
@@ -44,9 +44,9 @@ header{
 }
 
 #Overlay{
+    position: absolute;
    background-color: rgba(0,0,0,0.3);
-   position: absolute;
-   height: 70%;
+   height: 500px;
    width: 100%;
     margin: 0px;
     padding: 0px;
@@ -60,7 +60,7 @@ header{
 }
 
 #Titolo h1{
-    border: 3px solid white;
+    border: 3px solid white; /* Non posso usare l'ereditarietà perchè sennò si sovrapporrebbero */
     position: relative;
     bottom: 20px;
     font-size: 35px;
@@ -98,7 +98,8 @@ section{
     margin-top: -50px;
 }
 #descrizione{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
+    /*border-bottom: 3px solid rgb(180, 166, 166);*/
     margin-top: 4px;
 }
 
@@ -160,6 +161,9 @@ section{
   font-family: 'Roboto', Arial;
 }
 
+p{
+    margin-bottom: 20px;
+}
 em{
     color: tomato;
     font-style: normal;
@@ -272,8 +276,3 @@ footer{
 }
 
 }
-
-
-
-
-
