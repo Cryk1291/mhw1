@@ -100,6 +100,7 @@ section{
 #descrizione{
     /*border: 2px solid black;*/
     /*border-bottom: 3px solid rgb(180, 166, 166);*/
+    text-align: center;
     margin-top: 4px;
 }
 
